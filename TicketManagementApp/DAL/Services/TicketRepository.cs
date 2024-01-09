@@ -41,7 +41,7 @@ namespace TicketManagementApp.DAL.Services
 
         public string Delete()
         {
-            var query = "delete from TicketModels where Id='";
+            var query = "delete from TicketModels where TicketId='";
             return query;
         }
     }
